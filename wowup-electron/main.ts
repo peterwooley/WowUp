@@ -128,7 +128,7 @@ const args = process.argv.slice(1),
 
 function createTray() {
   console.log("TRAY");
-  const trayIconPath = path.join(__dirname, "assets", "wowup_logo_512np.png");
+  const trayIconPath = path.join(__dirname, "src/assets", "wowup_tray_icon.png");
   const icon = nativeImage.createFromPath(trayIconPath).resize({ width: 16 });
 
   tray = new Tray(icon);

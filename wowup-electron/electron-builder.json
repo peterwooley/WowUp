@@ -46,7 +46,7 @@
     "target": ["nsis", "portable"]
   },
   "mac": {
-    "icon": "dist/assets/icons",
+    "icon": "dist/assets/icons/favicon.icns",
     "category": "public.app-category.games",
     "target": ["default"]
   },
